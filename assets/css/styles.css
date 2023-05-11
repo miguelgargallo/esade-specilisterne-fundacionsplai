@@ -1,39 +1,149 @@
-:root {
-  --color-primario: #3498db;
-  --color-secundario: #2c3e50;
-  --fuente-primaria: 'Roboto', sans-serif;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  font-family: var(--fuente-primaria);
-  color: var(--color-primario);
-  background-color: var(--color-secundario);
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #0078d7;
+  text-decoration: none;
+}
+
+/* Header Styles */
+header {
   text-align: center;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
-/* 20. La web será resposiva utilizando Flex o Grid. */
-#contenido {
+/* Main Content Styles */
+.main-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
 }
 
-/* 23. Implementaremos animaciones */
-@keyframes fadeIn {
-  0% {
-      opacity: 0;
+/* Contact Styles */
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-links a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #0078d7;
+  color: #fff;
+}
+
+/* Resources Styles */
+.resources {
+  margin-top: 20px;
+}
+
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.resource-card a {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+
+/* Apple Watch */
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 24px;
   }
-  100% {
-      opacity: 1;
+  
+  p {
+    font-size: 14px;
   }
 }
 
-.fadeIn {
-  animation: fadeIn 1s ease-in;
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+
+  .resource-card {
+    padding: 8px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Desktops and Laptops */
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+/* Large Screens and TVs */
+@media screen and (min-width: 2560px) {
+  .container {
+    max-width: 1500px;
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .resource-card {
+    padding: 20px;
+  }
 }
