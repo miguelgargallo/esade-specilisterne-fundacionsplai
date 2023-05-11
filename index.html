@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- 1. Estructura HTML5 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    
+    <!-- 2. Hoja de estilos CSS3 -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    <!-- 22. Añadiremos un Favicon -->
+    <link rel="icon" href="./favicon.ico">
+    
+    <!-- 25. Utilizaremos una font externa de Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- 24. Utilizaremos icono a través de Fontawesome -->
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- 21. La información de los diferentes apartados será creada dinámicamente -->
+    <script src="./assets/js/script.js"></script>
+    
+    <!-- 7. Tiene que tener eventos -->
+    <button onclick="cambiarEstilo()">Cambiar estilo</button>
+    
+    <!-- 13. Se deberá implementar como mínimo un formulario -->
+    <form id="contacto" onsubmit="validarFormulario(event)">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <!-- 17. Se implementará una galería de imágenes -->
+    <div id="galeria">
+        <!-- Las imágenes se cargarán dinámicamente desde el script.js -->
+    </div>
+    
+    <!-- 18. Tendrá un link al GitHub -->
+    <a href="https://github.com/miguelgargallo" target="_blank">GitHub</a>
+    
+    <!-- 19. Podremos combinar estilo de dia y estilo de noche (manual o automático) -->
+    <button onclick="cambiarModo()">Cambiar modo</button>
+    
+    <!-- 20. La web será resposiva utilizando Flex o Grid -->
+    <div id="contenido">
+        <!-- El contenido se cargará dinámicamente desde el script.js -->
+    </div>
+    
+    <!-- 26. Crearemos un huevode pascua -->
+    <img src="./assets/img/pascua/huevopascua.png" alt="Huevo de pascua" style="display:none;">
+</body>
+</html>

@@ -1,0 +1,39 @@
+:root {
+  --color-primario: #3498db;
+  --color-secundario: #2c3e50;
+  --fuente-primaria: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--fuente-primaria);
+  color: var(--color-primario);
+  background-color: var(--color-secundario);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+/* 20. La web será resposiva utilizando Flex o Grid. */
+#contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* 23. Implementaremos animaciones */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in;
+}

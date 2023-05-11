@@ -1,0 +1,49 @@
+{
+    "nombre": "Miguel Gargallo",
+    "resumen": "Soy un experto en Inteligencia Artificial (IA)...",
+    "contacto": {
+      "calendario": "https://cal.com/miguelgargallo",
+      "github": "https://github.com/miguelgargallo",
+      "twitter": "https://twitter.com/miguelgargallo",
+      "twitch": "https://twitch.tv/miguelgargallo",
+      "youtube": "https://youtube.com/@miguelgargallollamas",
+      "instagram": "https://instagram.com/miguelgargallo.es"
+    },
+    "recursos": {
+      "apple": {
+        "apps": "http://apple.co/3o5FzDp",
+        "libros": "http://apple.co/3NJArA2"
+      },
+      "npm": {
+        "usuariosActivosMensuales": 2508,
+        "paquetes": [
+          {
+            "nombre": "Zenix",
+            "url": "https://www.npmjs.com/package/zenix",
+            "usuariosSemanales": 52
+          },
+          {
+            "nombre": "Sushis",
+            "url": "https://www.npmjs.com/package/sushis",
+            "usuariosSemanales": 195
+          },
+          {
+            "nombre": "Sushis-demo",
+            "url": "https://www.npmjs.com/package/sushis-demo",
+            "usuariosSemanales": 380
+          }
+        ]
+      },
+      "empresas": [
+        {
+          "nombre": "Pylar.org",
+          "url": "https://pylar.org/"
+        },
+        {
+          "nombre": "Pencil.li",
+          "url": "https://pencil.li/"
+        }
+      ]
+    }
+  }
+  
