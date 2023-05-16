@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Miguel Gargallo - CV</title>
+  <title>Your Website</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/button.css">
   <script src="./assets/js/fetch.js"></script>
+  <script src="./assets/js/gallery.js"></script>
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/button.js"></script>
 </head>
 
 <body>
@@ -17,13 +20,51 @@
       <p>Expert in Artificial Intelligence (AI)</p>
     </header>
 
-    <div class="main-content">
+    <body>
+      <nav class="navbar">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>    
+      </nav>
+
+      <button class="button-scroll">
+        <triangle />
+      </button>
+
       <section class="contact">
         <h2>Mi CV</h2>
         <div id="cv-data"></div>
       </section>
-    </div>
+
+      <!-- Gallery Container -->
+      <div class="gallery-container"></div>
+  </div>
   </div>
 </body>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="assets/img/logo.png" alt="Logo">
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
 </html>

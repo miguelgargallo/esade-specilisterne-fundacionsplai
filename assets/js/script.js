@@ -94,9 +94,3 @@ function cargarDatos(data) {
   }
 }
 
-// Populate gallery images
-var galleryImages = '';
-$.each(data.recursos.apple.libros, function (index, image) {
-  galleryImages += '<img src="assets/img/gallery/' + image + '" alt="Gallery Image">';
-});
-$('#gallery-images').html(galleryImages);
