@@ -1,0 +1,198 @@
+{
+  "nombre": "Miguel Gargallo",
+  "resumen": "Soy un experto en Inteligencia Artificial (IA)...",
+  "contacto": {
+    "calendario": "https://cal.com/miguelgargallo",
+    "github": "https://github.com/miguelgargallo",
+    "twitter": "https://twitter.com/miguelgargallo",
+    "twitch": "https://twitch.tv/miguelgargallo",
+    "youtube": "https://youtube.com/@miguelgargallollamas",
+    "instagram": "https://instagram.com/miguelgargallo.es"
+  },
+  "recursos": {
+    "apple": {
+      "apps": "http://apple.co/3o5FzDp",
+      "libros": "http://apple.co/3NJArA2"
+    },
+    "npm": {
+      "usuariosActivosMensuales": 2508,
+      "paquetes": [
+        {
+          "nombre": "Zenix",
+          "url": "https://www.npmjs.com/package/zenix",
+          "usuariosSemanales": 52
+        },
+        {
+          "nombre": "Sushis",
+          "url": "https://www.npmjs.com/package/sushis",
+          "usuariosSemanales": 195
+        },
+        {
+          "nombre": "Sushis-demo",
+          "url": "https://www.npmjs.com/package/sushis-demo",
+          "usuariosSemanales": 380
+        }
+      ]
+    },
+    "empresas": [
+      {
+        "nombre": "Pylar.org",
+        "url": "https://pylar.org/"
+      },
+      {
+        "nombre": "Pencil.li",
+        "url": "https://pencil.li/"
+      }
+    ]
+  },
+  "experiencia": [
+    {
+      "puesto": "Socio inversor",
+      "empresa": "Mapstr",
+      "fecha": "jun. 2022 - actualidad",
+      "descripcion": "Share your best places with your friends and find those of your favorite influencers, media, & brands. Discover and invest in Europe's most exciting businesses."
+    },
+    {
+      "puesto": "CEO and Founder, Blockchain Developer",
+      "empresa": "Pencil Domains ✏️",
+      "fecha": "oct. 2017 - actualidad",
+      "descripcion": "CEO, Founder, Drone pilot and 7 Years of Expertise at WordPress Webmaster. Study and persuade new trends of services in a keynote. Collect and discover KPIs from Google Analytics, optimize SEM budget campaigns at Google ads, or FB ads for FB and IG. Identify and evaluate Customer Journey plan and then manage customers into HubSpot Inbound marketing platform."
+    },
+    {
+      "puesto": "iOS Developer",
+      "empresa": "Andorra la Vella, Andorra",
+      "fecha": "abr. 2021 - jul. 2021",
+      "descripcion": "An iOS developer is responsible for developing applications for mobile devices powered by Apple's iOS operating system. iOS developers must also have a strong understanding of the patterns and practices that revolve around the iOS platform."
+    },
+    {
+      "puesto": "Contrato temporal",
+      "empresa": "Air Details LLC Media",
+      "fecha": "sept. 2019 - jul. 2021",
+      "descripcion": "Independent Professional photographer at Air Details LLC Media as a photographer at events, Women’s IBERDROLA, Series B (man), Basket & hockey."
+    },
+    {
+      "puesto": "PLG eSports",
+      "empresa": "Madrid, Community of Madrid, Spain",
+      "fecha": "dic. 2021 - jun. 2022",
+      "descripcion": "An expert who knows a specific title of esports in-depth, the teams involved, and current strategies. Caster (also called Shoutcaster) is the gaming term for a commentator at a live event."
+    },
+    {
+      "puesto": "Marketing CMS España",
+      "empresa": "Barcelona, Catalonia, Spain",
+      "fecha": "jul. 2020 - jun. 2021",
+      "descripcion": "Facilitate and guide 1on1 webinars to new customers for onboarding at the platforms. Adapt and coach teams at training programs for inbound marketing HubSpot tool and corporate Trello or Asana platforms. Stimulate and train customers to maintain on the platform and establish goals for their needs and sales. Forecast and audit SEO data analytics with IBM SPSS Statistics and Instagram MS Excel data."
+    },
+    {
+      "puesto": "Twitch",
+      "empresa": "Barcelona, Catalonia, Spain",
+      "fecha": "abr. 2020 - may. 2021",
+      "descripcion": "Creator of digital audiovisual content. Camera operator: Canon EOS 77D. Audio operator: SHURE SM7B + Cloudlifter and Focusrite 4i4 3rd generation. Stream on Twitch and engage with followers in an incredible adventure."
+    }
+  ],
+  "educacion": [
+    {
+      "titulo": "Graduate, Project Management",
+      "fecha": "2021 - 2022",
+      "descripcion": "Project Management graduate program at Harvard University. Covered project management concepts, practices, and behavioral characteristics necessary for successful project delivery in profit and nonprofit organizations."
+    },
+    {
+      "titulo": "Bachelor's degree, Marketing Online and Digital Communications",
+      "fecha": "2018 - 2020",
+      "descripcion": "Bachelor's degree in Marketing and Digital Communications from Universitat Politècnica de Catalunya (UPC). Prepared for various profiles in digital marketing, including Product Manager, Brand Manager, and specialist in Digital Marketing and online positioning."
+    },
+    {
+      "titulo": "Bachelor's degree, Business Administration, Management and Operations",
+      "fecha": "2016 - 2019",
+      "descripcion": "Bachelor's degree in Business Administration and Management from Universitat Politècnica de Catalunya (UPC). Prepared for professional development in commercial and financial fields."
+    }
+  ],
+  "licenciasCertificaciones": [
+    {
+      "nombre": "Contextual Marketing",
+      "expedicion": "jul. 2021",
+      "idCredencial": "0cc14ab9ab3049418ce876c9ef755721"
+    },
+    {
+      "nombre": "Inbound",
+      "expedicion": "jul. 2021",
+      "idCredencial": "701d9e849533465daea8a441ddb17401"
+    },
+    {
+      "nombre": "Member of Project Management Institute",
+      "expedicion": "jul. 2021",
+      "idCredencial": "7402677"
+    }
+  ],
+  "voluntariado": [
+    {
+      "nombre": "Volunteer",
+      "empresa": "IDG World Expo",
+      "fecha": "ene. 2014 - ene. 2015",
+      "descripcion": "Assisted and collaborated with live music production technology and multi-camera production at IDG World Expo events. Managed registration and housing for attendees."
+    }
+  ],
+  "aptitudes": [
+    "Marketing Communications",
+    "Marketing Strategy",
+    "Strategic Planning"
+  ],
+  "recomendaciones": [
+    {
+      "nombre": "Louis H. Mitchell",
+      "puesto": "Manager at Harvard Kennedy School",
+      "fecha": "23 de septiembre de 2021",
+      "recomendacion": "I had the privilege of meeting Miguel in our Project Management course. Miguel brought value to every class discussion and group project. He is incredibly emotionally intelligent and helped motivate and challenge us. Miguel rolls up his sleeves and takes on any challenge with positivity, innovation, and creativity."
+    },
+    {
+      "nombre": "Mariyam Raza Khan",
+      "puesto": "Quality Assurance Manager at jut-so GmbH",
+      "fecha": "9 de septiembre de 2021",
+      "recomendacion": "Miguel is a hardworking professional with an eye for detail. He focuses on research and implementing the best techniques. His creativity is his strong suit."
+    },
+    {
+      "nombre": "★ Marta Montes Coll",
+      "puesto": "Administración y atención al cliente de Sitjar Fruits",
+      "fecha": "4 de junio de 2020",
+      "recomendacion": "Miguel is dynamic and a great colleague. He has experience within his field and accepts constructive criticism. He is an asset in any project due to his enthusiasm and dedication."
+    }
+  ],
+  "patentes": [
+    {
+      "nombre": "CubeLines Cloud Platform",
+      "expedicion": "11 nov. 2014"
+    },
+    {
+      "nombre": "RedPhone Project",
+      "expedicion": "29 sept. 2013"
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "After Effects CC at FX Animation Barcelona 3D & Film School",
+      "duracion": "30 hours"
+    },
+    {
+      "nombre": "Final Cut Pro 7 & X at FX Animation Barcelona 3D & Film School",
+      "duracion": "25 hours"
+    },
+    {
+      "nombre": "Leadership Foundations (PMI & LinkedIn Learning)",
+      "idCurso": "41011CTGIZ"
+    }
+  ],
+  "proyectos": [
+    {
+      "nombre": "OS X Apps",
+      "fecha": "ene. 2013 - feb. 2018"
+    },
+    {
+      "nombre": "iOS Apps",
+      "fecha": "jul. 2012 - feb. 2018"
+    },
+    {
+      "nombre": "RedPhone, The iPhone for people with disabilities",
+      "fecha": "ene. 2013 - sept. 2017",
+      "descripcion": "Associated with Bolt Devs. Developed the RedPhone, an iPhone for people with disabilities. Set up Cydia packages and other components to create a comprehensive solution."
+    }
+  ]
+}

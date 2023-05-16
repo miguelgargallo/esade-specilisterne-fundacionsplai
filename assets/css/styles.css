@@ -1,139 +1,80 @@
-/* Global Styles */
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  color: #333;
+  font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  background-color: #f5f5f5;
 }
 
 .container {
-  width: 80%;
-  margin: auto;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  font-size: 2em;
-  color: #2b88d8;
-  margin-bottom: 20px;
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
 }
 
 p {
-  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 a {
-  color: #2b88d8;
+  color: #0078d7;
   text-decoration: none;
 }
 
-/* Header Styles */
-header {
-  background: #f3f3f3;
-  padding: 20px 0;
+a:hover {
+  text-decoration: underline;
 }
 
-/* Main Content Styles */
-.main-content {
-  margin: 20px 0;
-}
-
-/* Contact Styles */
-.contact-links {
-  list-style: none;
-  padding: 0;
-}
-
-/* Resources Styles */
-.resources {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.resource-card {
-  width: 45%;
-  border: 1px solid #e1e1e1;
-  padding: 20px;
+.contacto,
+.recursos,
+.experiencia,
+.educacion {
   margin-bottom: 20px;
 }
 
-/* Responsive Styles */
-@media (max-width: 320px) { /* Apple Watch */
-  h1 {
-      font-size: 1.2em;
-  }
-
-  p {
-      font-size: 0.8em;
-  }
-
-  .resource-card {
-      width: 100%;
-  }
+.contacto h3,
+.recursos h3,
+.experiencia h3,
+.educacion h3 {
+  color: #0078d7;
 }
 
-@media (max-width: 480px) { /* Mobile Devices */
-  .container {
-      width: 95%;
-  }
-
-  h1 {
-      font-size: 1.5em;
-  }
-
-  p {
-      font-size: 0.9em;
-  }
-
-  .resource-card {
-      width: 100%;
-  }
+.experiencia,
+.educacion {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
 }
 
-@media (max-width: 768px) { /* Tablets */
-  .container {
-      width: 95%;
-  }
-
-  h1 {
-      font-size: 1.7em;
-  }
-
-  p {
-      font-size: 1em;
-  }
-
-  .resource-card {
-      width: 48%;
-  }
+.experiencia img,
+.educacion img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
-@media (min-width: 769px) and (max-width: 1200px) { /* Desktops and Laptops */
-  h1 {
-      font-size: 2em;
-  }
-
-  p {
-      font-size: 1.2em;
-  }
+.experiencia h4,
+.educacion h4 {
+  margin-top: 0;
 }
 
-@media (min-width: 1201px) { /* Large Screens and TVs */
-  .container {
-      width: 70%;
-  }
-
-  h1 {
-      font-size: 2.5em;
-  }
-
-  p {
-      font-size: 1.4em;
-  }
-
-  .resource-card {
-      width: 30%;
-  }
-}

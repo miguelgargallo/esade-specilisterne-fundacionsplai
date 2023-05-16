@@ -1,18 +1,3 @@
-// 8. Los datos del cv deberán ser leidos desde un Json independiente
-fetch('./assets/data/data-cv.json')
-  .then(response => response.json())
-  .then(data => {
-    // 21. La información de los diferentes apartados será creada dinámicamente
-    cargarDatos(data);
-
-    // 17. Se implementará una galería de imágenes
-    cargarGaleria(data);
-  });
-
-function cargarDatos(data) {
-  // Cargar datos del CV en el DOM
-}
-
 function cargarGaleria(data) {
   // Cargar imágenes de la galería en el DOM
 }
@@ -111,7 +96,7 @@ function cargarDatos(data) {
 
 // Populate gallery images
 var galleryImages = '';
-$.each(data.recursos.apple.libros, function(index, image) {
+$.each(data.recursos.apple.libros, function (index, image) {
   galleryImages += '<img src="assets/img/gallery/' + image + '" alt="Gallery Image">';
 });
 $('#gallery-images').html(galleryImages);
