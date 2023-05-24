@@ -54,6 +54,20 @@ Mi Twitter, @miguelgargallo
 
 ---
 
+### PYLAR AI CREATIVE ML RESTRICTIVE LICENSE
+###### licensehtml and license.md
+
+|               | ✅ Allowed  | ❌ Not Allowed |
+| ------------- | ---------- | ------------- |
+|               | View       | Redistribute  |
+|               | Use        | Copy          |
+|               | Provide    | Host          |
+| ❌ Not Allowed | Commercial | Claim         |
+|               | Hold       |               |
+
+
+---
+
 ## 1. Funcionalidades
 
 El código HTML está dividido en tres archivos: `index.html` y `form.html`.
@@ -64,10 +78,6 @@ El código HTML está dividido en tres archivos: `index.html` y `form.html`.
 
 - El archivo Readme que proporciona una descripción general del código.
 
-### License.md
-
-- El archivo License que proporciona información sobre la licencia del código. En este caso, Pylar AI creative ML License 0.0.4 es la licencia utilizada.
-
 ---
 
 ### index.html
@@ -77,16 +87,6 @@ El código HTML está dividido en tres archivos: `index.html` y `form.html`.
 - Importa archivos JavaScript: `gallery.js` y `script.js`.
 - Define el encabezado, menú de navegación, sección de contenido y pie de página.
 
----
-
-## Acerca de la Licencia y sus usos
-
-##### Pylar AI creative ML License 0.0.4
-
-| ✅ Se Permite                         | ❌ No Se Permite                                      |
-| ------------------------------------ | ---------------------------------------------------- |
-| Uso no comercial                     | Uso comercial, incluyendo venta, copia, modificación |
-| Mostrar código con fines científicos | Uso en productos comerciales                         |
 
 ---
 
@@ -118,9 +118,9 @@ El código JavaScript está organizado en archivos separados para diferentes fun
 
 ---
 
-- `gallery.js`: Implementa una función de galería cargando y mostrando imágenes dinámicamente.
 - `button.js`: Define la funcionalidad JavaScript para el botón de desplazamiento hacia arriba.
 - `form.js`: Implementa la lógica de validación y envío del formulario de contacto.
+- ¿No `Gallery.js`? No, se ha implementado en el HTML.
 
 ---
 

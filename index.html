@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/button.css">
   <script src="./assets/js/fetch.js"></script>
-  <script src="./assets/js/gallery.js"></script>
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/button.js"></script>
 </head>
@@ -20,44 +19,74 @@
       <p>Expert in Artificial Intelligence (AI)</p>
     </header>
 
-    <body>
-      <nav class="navbar">
-        <nav class="menu">
-          <ul class="menu-list">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="https://twitter.com/miguelgargallo">Twitter</a></li>
-            <li><a href="/form.html">Contact</a></li>
-          </ul>
-        </nav>
-        <div id="cv-data">
-          <!-- JSON data will be dynamically populated here -->
-        </div>
-      </nav>
-      <button class="button-scroll">
-        <triangle />
-      </button>
-  </div>
-</div>
-
-</body>
-<footer class="footer">
-  <div class="container">
-    <div class="footer-content">
-      <div class="footer-logo">
-        <img src="assets/img/logo.jpg" alt="Logo">
-      </div>
-      <div class="footer-links">
-        <ul>
-          <li><a href="#">Home</a></li>
+    <nav class="navbar">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li><a href="/index.html">Home</a></li>
           <li><a href="https://twitter.com/miguelgargallo">Twitter</a></li>
           <li><a href="/form.html">Contact</a></li>
         </ul>
+      </nav>
+      <div id="cv-data">
+        <!-- JSON data will be dynamically populated here -->
       </div>
+    </nav>
+
+    <div class="gallery-container">
+      <!-- Images will be dynamically added here -->
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2023 Your Company. All rights reserved.</p>
-    </div>
+
+    <button class="button-scroll">
+      <triangle />
+    </button>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="assets/img/logo.jpg" alt="Logo">
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="https://twitter.com/miguelgargallo">Twitter</a></li>
+              <li><a href="/form.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Miguel Gargallo. All rights reserved.</p>
+          <a
+            href="/license.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          License
+          </a>
+        </div>
+      </div>
+    </footer>
   </div>
-</footer>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      const galleryContainer = document.querySelector('.gallery-container');
+
+      const imagePaths = [
+      './img/image1.jpg',
+      './img/image2.jpg',
+      './img/image3.jpg',
+      ];
+
+      imagePaths.forEach(function (path) {
+        const image = document.createElement('img');
+        image.src = path;
+        image.alt = 'Gallery Image';
+
+        galleryContainer.appendChild(image);
+      });
+    });
+  </script>
+</body>
 
 </html>
