@@ -1,20 +1,26 @@
 ---
 theme: uncover
-class: invert
+
 marp: true
-paginate: true
+class: invert
+backgroundColor: #252422
+paginate: false
+---
+# CV Kit de <span style="color:#ED6D3C;">Miguel Gargallo</span>
+
+#####  <span style="color:#FFFCF2;">Un proyecto</span><span style="color:#ED6D3C;"> Open Source</span>  <span style="color:#FFFCF2;">para crear tu propio CV en HTML, CSS y JS en GitHub.</span>
+
+
+
 ---
 
-## `CV Kit` - Miguel Gargallo
-##### Proyecto final de CV en `HTML`, `CSS` y `JS`
+## Proceso de <span style="color:#ED6D3C;">Creación</span> y Organización
 
----
-
-## Proceso de Creación y Organización
-
----
-
-![tre screenshot](/img/organizacion.png)
+| Carpeta | Descripción | Valoración | Tiempo |
+| --- | --- | --- | --- |
+| <span style="color:#EB5E28;">HTML</span> | Página Principal | Importante | 20 mins |
+| <span style="color:#74acfc;">CSS</span>  | Hoja de Estilos | No importante | 10 mins |
+| <span style="color:#ff0f;">JS</span>  | Script | Muy Importante | 45 mins |
 
 ---
 
@@ -36,17 +42,11 @@ paginate: true
 
 ## Desafíos y Dificultades
 
-- Revisando con Oscar en el testing final habían archivos duplicados, por lo que se ha tenido que revisar el código y eliminar los archivos duplicados.
+- Revisar archivos <span style="color:#ED6D3C;">duplicados</span> y<span style="color:#ED6D3C;"> no utilizados</span> .
 
 ---
 
-![tre screenshot](/img/tre.png)
-
----
-
-## Funcionalidades
-
-DEMO
+# DEMO
 
 ---
 
@@ -59,8 +59,8 @@ DEMO
 
 ## Conclusión
 
-- Refrescar conocimientos de HTML, CSS y JS.
-- Estructurar el código por archivos.
+- Refrescar conocimientos de <span style="color:#EB5E28;"> HTML</span> y <span style="color:#74acfc;">CSS</span> y <span style="color:#ff0f;">JS</span>.
+- <span style="color:#CCC5B9;">JS</span>Estructurar el código por archivos.
 
 ---
 
