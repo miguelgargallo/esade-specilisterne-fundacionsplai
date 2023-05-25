@@ -32,10 +32,10 @@ function renderData(data) {
     const calendarioLink = createLinkElement("Calendario", data.contacto.calendario);
     contactoDiv.appendChild(calendarioLink);
 
-    const githubLink = createLinkElement("GitHub", data.contacto.github);
+    const githubLink = createLinkElement(" GitHub", data.contacto.github);
     contactoDiv.appendChild(githubLink);
 
-    const twitterLink = createLinkElement("Twitter", data.contacto.twitter);
+    const twitterLink = createLinkElement(" Twitter", data.contacto.twitter);
     contactoDiv.appendChild(twitterLink);
 
     // Add more contact links as needed
@@ -48,10 +48,10 @@ function renderData(data) {
     recursosHeading.textContent = "Recursos";
     recursosDiv.appendChild(recursosHeading);
 
-    const appleAppsLink = createLinkElement("Apple Apps", data.recursos.apple.apps);
+    const appleAppsLink = createLinkElement("Apps", data.recursos.apple.apps);
     recursosDiv.appendChild(appleAppsLink);
 
-    const appleLibrosLink = createLinkElement("Apple Libros", data.recursos.apple.libros);
+    const appleLibrosLink = createLinkElement(" Libros", data.recursos.apple.libros);
     recursosDiv.appendChild(appleLibrosLink);
 
     // Add more resource links as needed
