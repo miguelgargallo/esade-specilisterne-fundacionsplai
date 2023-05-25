@@ -1,45 +1,42 @@
 ---
 theme: uncover
+class: invert
 marp: true
 paginate: true
 ---
 
-## Proyecto de Miguel Gargallo sobre CV
-@miguelgargallo
+## `CV Kit` - Miguel Gargallo
+##### Proyecto final de CV en `HTML`, `CSS` y `JS`
 
 ---
 
-
 ## Proceso de Creación y Organización
 
-- El proceso de creación ha sido VS Code junto a Live Server.
-- Se ha utilizado Git para el control de versiones, con un repositorio remoto en GitHub.
+---
+
+![tre screenshot](/img/organizacion.png)
 
 ---
 
 ## Tecnologías y Herramientas Utilizadas
 
-![HTML](https://img.shields.io/badge/HTML-HTML5-orange)
-![CSS](https://img.shields.io/badge/CSS-CSS3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Fetch API](https://img.shields.io/badge/Fetch_API-API-red)
-![Marp](https://img.shields.io/badge/Marp-Markdown-blue)
+![HTML](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/120px-CSS3_and_HTML5_logos_and_wordmarks.svg.png)
+![CSS](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/111px-Javascript_badge.svg.png?20160504163251)
 
 ---
 
 ## Herramientas Utilizadas
 
-![Editor de Texto](https://img.shields.io/badge/Editor_de_Texto-VS_Code-blue)
-![Navegador Web](https://img.shields.io/badge/Navegador_Web-Chrome-green)
-![Control de Versiones](https://img.shields.io/badge/Control_de_Versiones-Git-blueviolet)
-![Herramientas de Compilación](https://img.shields.io/badge/Herramientas_de_Compilación-NPM-yellow)
+![Editor de Texto](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/120px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519)
+![Navegador Web](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/115px-Firefox_logo%2C_2019.svg.png?20221020111440)
+![Control de Versiones](https://upload.wikimedia.org/wikipedia/commons/thumb/archive/e/e0/20130520120408%21Git-logo.svg/120px-Git-logo.svg.png)
+![Herramientas de Compilación](img/pylar.png)
 
 ---
 
 ## Desafíos y Dificultades
 
-- Uno de los desafios era el menú de navegación, que se ha resuelto con un menú y footer eficaz a nivel de UX.
-- Se añadió un botón de desplazamiento hacia arriba.
+- Revisando con Oscar en el testing final habían archivos duplicados, por lo que se ha tenido que revisar el código y eliminar los archivos duplicados.
 
 ---
 
@@ -62,27 +59,24 @@ DEMO
 
 ## Conclusión
 
-- Se ha logrado el objetivo de crear un sitio web que muestre información sobre el autor y su experiencia profesional.
-- La reflexión sobre el proceso de creación y organización del proyecto es positiva y se ha aprendido a refrescar los conocimientos de HTML, CSS y JavaScript del pasado.
+- Refrescar conocimientos de HTML, CSS y JS.
+- Estructurar el código por archivos.
 
 ---
 
 ```html
-<h1> Proyecto de Miguel Gargallo sobre CV </h1>
- 
-<a 
-    href="hello@miguelgargallo.com"
-    target="_blank"
-    noreferrer noopener
->
-Mi correo electrónico, hello@miguelgargallo.com
-</a>
+<h1>Miguel Gargallo<h1>
 
-<a 
-    href="https://twitter.com/miguelgargallo"
-    target="_blank"
-    noreferrer noopener
->
-Mi Twitter, @miguelgargallo
-</a>
+    <a 
+        href="mailto:hello@miguelgargallo.com"
+        target="_blank"
+        >
+        hello@miguelgargallo.com 
+    </a>
+    
+    <a 
+        href="https://twitter.com/miguelgargallo"
+        target="_blank">
+        Mi Twitter, @miguelgargallo 
+    </a>
 ```
