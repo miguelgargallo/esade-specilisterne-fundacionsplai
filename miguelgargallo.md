@@ -79,7 +79,7 @@ Total 1090
 ---
 
 
-### Gráfico de <span style="color:#ED6D3C;">de desarrollo</span>
+### Gráfico de <span style="color:#ED6D3C;"> desarrollo</span>
 
 ```md
 |    Tiempo Estimado (unidades)
@@ -108,8 +108,6 @@ Total 1090
 
 ---
 
-### 
-
 ```md
          Estimado          Actual
             Tiempo (unidades)
@@ -132,9 +130,12 @@ Total 1090
 
 ---
 
-# Lineas de futuro
+# Líneas de futuro
 
 Astro: Se busca una evolución de html a Astro ya que es un framework que permite la reactividad y la carga de componentes.
+
+<span style="color:#ED6D3C;">https://miguelgargallo.com/</span>
+
 
 ---
 
