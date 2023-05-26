@@ -67,7 +67,7 @@ Total 1090
 
 ## Proceso de <span style="color:#ED6D3C;">Desarrollo</span>
 
-| Tarea | Estimación | |  | Realidad | |
+| Tarea | Estimación | |  | Realidad |  |
 | --- | --- | --- | --- | --- | --- |
 | Tipo | Prioridad | Tiempo | Prioridad | Tiempo |
 | <span style="color:#EB5E28;">HTML</span> | V | 45 | I | 45 + 30 |
@@ -82,7 +82,7 @@ Total 1090
 ### Gráfico de <span style="color:#ED6D3C;">de desarrollo</span>
 
 ```md
-|    Tiempo Estimado (unidades)  |
+|    Tiempo Estimado (unidades)
 |      300 +-----------------+
 |          |                 |
 |          |                 |
@@ -141,7 +141,7 @@ Astro: Se busca una evolución de html a Astro ya que es un framework que permit
 ## Conclusión
 
 - Refrescar conocimientos de <span style="color:#EB5E28;"> HTML</span> y <span style="color:#74acfc;">CSS</span> y <span style="color:#ff0f;">JS</span>.
-- <span style="color:#CCC5B9;">JS</span>Estructurar el código por archivos.
+- Estructurar el código por archivos.
 
 
 ---
